@@ -24,8 +24,15 @@ namespace RestaurantManagementSystem
 
         private void loginButton_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            this.Parent.Controls.Add(new TasksDashboardControlForm());
+            if(loginBox.Text=="admin" && passwordBox.Text == "root")
+            {
+                this.Hide();
+                this.Parent.Controls.Add(new TasksDashboardControlForm());
+            }
+            else
+            {
+                MessageBox.Show("Wrong Informations, Try Again !!");
+            }
         }
 
     }
