@@ -43,10 +43,7 @@ namespace RestaurantManagementSystem
             bill.Columns.Add("Total");
 
             bill.Rows.Add("7ouuut",200,32,1,2,324);
-            bill.Rows.Add("7ouuut", 200, 32, 1, 2, 324);
-            bill.Rows.Add("7ouuut", 200, 32, 1, 2, 324);
-            bill.Rows.Add("7ouuut", 200, 32, 1, 2, 324);
-            bill.Rows.Add("7ouuut", 200, 32, 1, 2, 324);
+
             /*
             if (cmd != null) //si table a une commande pour afficher sur datatable
             {
@@ -84,9 +81,7 @@ namespace RestaurantManagementSystem
             bill_meta.Columns.Add("Serveur Id");
 
             bill_meta.Rows.Add(1, "aadf", 234);
-            bill_meta.Rows.Add(1, "aadf", 234);
-            bill_meta.Rows.Add(1, "aadf", 234);
-            bill_meta.Rows.Add(1, "aadf", 234);
+
 
             string name = serveur.nom + " " + serveur.prenom;
             //bill_meta.Rows.Add(table_id, name ,serveur.code_serveur);
